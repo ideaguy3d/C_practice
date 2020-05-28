@@ -91,9 +91,27 @@ void getInput() {
     }
 }
 
+
+void ptr2() {
+    int h = 1;
+    int *ptrH = &h;
+    int array[4][3] = {
+            // cost | sales_price | in_stock
+            {12, 36, 500},
+            {2, 12, 300},
+            {5, 20, 400},
+            {7, 28, 200}
+    };
+
+    *ptrH += 1;
+
+    printf("\n_> h = %d", h);
+    printf("\n_> ptrH = %p", ptrH);
+    printf("\n_> *ptrH = %d", *ptrH);
+}
+
 int main() {
-    pointersOne();
-    //getInput();
+    ptr2();
 }
 
 
