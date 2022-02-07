@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
-project(cprac1 C)
+project(cprac C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(cprac1 main.c ap.c ap.h)
+add_executable(main.c)
