@@ -18,3 +18,4 @@ _logs
 **/ci
 *.csv
 cmake-build-debug
+.DS_Store
